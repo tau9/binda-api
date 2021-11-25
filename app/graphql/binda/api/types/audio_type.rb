@@ -23,4 +23,5 @@ Binda::Api::Types::AudioType = GraphQL::ObjectType.define do
     resolve ->(obj, args, ctx) do 
       obj.duration
     end
+  end
 end
